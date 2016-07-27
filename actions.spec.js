@@ -1,5 +1,5 @@
-import ajax from './ajax';
-import ajaxActionTypes from '../constants/ajax';
+import ajax from './actions';
+import ajaxActionTypes from './constants';
 
 describe('ajax actions', () => {
   it('dispatches that a request has been submitted', (done) => {

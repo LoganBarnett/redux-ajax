@@ -1,4 +1,4 @@
-import actionTypes from '../constants/ajax';
+import actionTypes from './constants';
 import R from 'ramda';
 
 const initialState = (id, defaultResponseData) => {

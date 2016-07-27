@@ -1,6 +1,5 @@
-// import axios from 'axios';
-import ajax from './ajax';
-import actionTypes from '../constants/ajax';
+import ajax from './reducer';
+import actionTypes from 'constants';
 
 describe('ajax', () => {
   it('defaults responseData to whatever is provided', () => {

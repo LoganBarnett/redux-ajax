@@ -1,4 +1,4 @@
-import ajaxActionTypes from '../constants/ajax';
+import ajaxActionTypes from './constants';
 
 const ajax = (id) => {
   return (http, dispatch, data) => {
