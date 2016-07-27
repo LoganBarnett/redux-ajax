@@ -1,0 +1,8 @@
+
+const ajax =
+  { REQUEST: 'REQUEST_AJAX'
+  , RECEIVE_SUCCESS: 'RECEIVE_SUCCESS_AJAX'
+  , RECEIVE_FAILURE: 'RECEIVE_FAILURE_AJAX'
+};
+
+export default ajax;
